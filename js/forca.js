@@ -2,44 +2,7 @@ let tentativas = 6;
 let palavraSecretaCategoria;
 let palavraSecretaSorteada;
 let listaDinamica = [];
-const palavras = [
-  (palavra001 = {
-    nome: "IRLANDA",
-    categoria: "PAÍS",
-  }),
-  (palavra002 = {
-    nome: "BRASIL",
-    categoria: "PAÍS",
-  }),
-  (palavra003 = {
-    nome: "ITALIA",
-    categoria: "PAÍS",
-  }),
-  (palavra004 = {
-    nome: "MEXICO",
-    categoria: "PAÍS",
-  }),
-  (palavra005 = {
-    nome: "EUA",
-    categoria: "PAÍS",
-  }),
-  (palavra006 = {
-    nome: "NORUEGA",
-    categoria: "PAÍS",
-  }),
-  (palavra007 = {
-    nome: "INGLATERRA",
-    categoria: "PAÍS",
-  }),
-  (palavra008 = {
-    nome: "COLOMBIA",
-    categoria: "PAÍS",
-  }),
-  (palavra009 = {
-    nome: "EQUADOR",
-    categoria: "PAÍS",
-  }),
-];
+
 criarPalavraSecreta();
 function criarPalavraSecreta() {
   let indexPalavra = parseInt(Math.random() * palavras.length);
