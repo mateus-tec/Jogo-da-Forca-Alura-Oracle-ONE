@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 90vh;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background: #f3f5fc;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.titulo{
+  font-family: 'Moo Lah Lah', cursive;
+  font-size: 50px;
+  margin-right: 40px;
+  color: #0a3871;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+#btn-comecar{
+  margin: 40px;
+  
+}
+#btn-comecar a {
+  padding: 30px 60px;
+  border-radius: 24px;
+  background: #0a3871;
+  text-decoration: none;
+  color: white;
+
+  
+}
+#btn-adicionar{
+  margin: 40px;
+}
+#btn-adicionar a{
+  padding: 28px 54px;
+  border-radius: 24px;
+  border: 1px #0a3871 solid;
+  text-decoration: none;
+  color: #0a3871;
+}
+
+.footer p{
+  text-align: center;
+  color: #0a3871;
+  margin: 15px auto;
+}
+
+.footer img{
+  height: 30px;
+  width: 30px;
+}
+.footer{
+  text-align: center;
+}
+.rede-social a,span{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #0a3871;
+  font-size: 15px;
+  gap: 0.75;
+}
+span{
+  margin-top: 10px;
+}
